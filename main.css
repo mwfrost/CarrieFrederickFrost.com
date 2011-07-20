@@ -1,0 +1,146 @@
+/*  
+CSS based on
+http://dianalindindex.com/
+by
+Ian Crowther
+http://iancrowther.com/
+*/
+
+
+
+body {
+padding: 1em;
+margin: 0px;
+font: normal 16px/1.5em "hoefler text", "georgia", constantia, "times new roman", times, serif;
+color: black;
+padding: 0px;
+background: white;
+}
+
+
+h1 {
+padding: 24px 0px 10px 0px;
+margin: 0px;
+font-weight: normal;
+text-transform: uppercase;
+}
+h2 {
+padding: 12px 0px 10px 0px;
+margin: 0px;
+font-weight: normal;
+font-style: italic;
+}
+
+h1.headline, h2.headline, h3.headline {
+text-align:center;
+}
+
+h3 {
+padding: 0px;
+margin: 0px;
+font-weight: normal;
+font-size: 14px;
+text-transform: uppercase;
+color: #900;
+letter-spacing: .1em;
+font-family: "gill sans", "lucida grande", calibri, corbel, sans-serif;
+}
+
+h4 {
+color: #900;
+padding: 0px;
+margin: 0px;
+letter-spacing: .1em;
+font-size: 14px;
+font-weight: normal;
+font-family: "gill sans", "lucida grande", calibri, corbel, sans-serif;
+}
+
+h6 {
+font-size: 9px;
+font-family: "gill sans", "lucida grande", calibri, corbel, sans-serif;
+letter-spacing: .1em;
+padding: 26px 0px 0px 0px;
+margin: 0px;
+}
+
+
+a:link {
+text-decoration: none;
+color: #900;
+}
+
+a:visited {
+text-decoration: none;
+color: #900;
+
+}
+
+a:hover {
+text-decoration: none;
+color: #900;
+}
+
+a:active {
+text-decoration: none;
+}
+
+
+#container {
+width: 772px;
+margin: 0px auto;
+padding: 0em 1em 1em 1em;
+}
+
+#index {
+border-top: 2px solid black; 
+clear: both;
+}
+
+
+#footer {
+clear: both;
+padding: 4px 4px 3px 16px;
+font-style: italic;
+font-size: 70%;
+letter-spacing: .15em;
+background: #200;
+color: white;
+margin-bottom: 24px;
+}
+
+
+.clear {
+clear: both;
+height: 1em;
+
+}
+
+	.middle-container-wrapper {
+		margin: 0px auto 8px;
+		width: 600px;
+		background-color: #E6DFCA;
+	}
+	.middle-container {
+		padding: 30px;
+		background-color: #E6DFCA;
+		background-image: url('http://www.joyent.com/img/accelerator/card-shadow.png');
+		background-repeat: repeat-x;
+		background-position: left top;
+	}
+/* clearfix - fb ------------------------------------------------- */
+ 
+	.clearfix:after {
+			content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+	}
+	.clearfix { display: inline-block;}
+	.clearfix-block { display: inline-block;}
+	 
+	/* Hides from IE-mac \*/
+	* html .clearfix {height: 1%;}
+	.clearfix {display: block;}
+	/* End hide from IE-mac */
